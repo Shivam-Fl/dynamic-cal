@@ -109,7 +109,8 @@ function App() {
                 <button 
                   onClick={prevMonth} 
                   className="
-                    p-2 bg-gray-100 hover:bg-gray-200 
+                    w-12 h-12 flex items-center justify-center // Fixed width and height
+                    bg-gray-100 hover:bg-gray-200 
                     rounded-full transition-colors
                     focus:outline-none focus:ring-2 focus:ring-blue-300
                   "
@@ -117,14 +118,15 @@ function App() {
                   <ChevronLeft className="h-6 w-6 text-gray-600" />
                 </button>
                 
-                <h1 className="text-sm md:text-3xl font-bold text-gray-800">
+                <h1 className="text-sm md:text-2xl font-bold text-gray-800 w-32 sm:w-48 text-center"> {/* Added fixed width */}
                   {format(currentDate, 'MMMM yyyy')}
                 </h1>
                 
                 <button 
                   onClick={nextMonth} 
                   className="
-                    p-2 bg-gray-100 hover:bg-gray-200 
+                    w-12 h-12 flex items-center justify-center // Fixed width and height
+                    bg-gray-100 hover:bg-gray-200 
                     rounded-full transition-colors
                     focus:outline-none focus:ring-2 focus:ring-blue-300
                   "
