@@ -35,13 +35,5 @@ A dynamic event calendar application built with React and Vite.
 ## Deployed Link
 - [deployed link](https://dynamic-cal.vercel.app/)
 
-## Future Improvements
 
-- Implement event filtering
-- Add recurring events
-- Integrate with external calendars (e.g., Google Calendar)
-
----
-
-Feel free to contribute to the project or suggest new features!
 
