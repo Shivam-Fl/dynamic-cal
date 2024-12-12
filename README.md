@@ -32,6 +32,9 @@ A dynamic event calendar application built with React and Vite.
 - **react-dnd** for drag-and-drop functionality
 - **Tailwind CSS** for styling
 
+## Deployed Link
+- [deployed link](https://dynamic-cal.vercel.app/)
+
 ## Future Improvements
 
 - Implement event filtering
